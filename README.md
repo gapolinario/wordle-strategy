@@ -5,9 +5,12 @@ Inspired by Wordle game
 List of words in English
 https://github.com/dwyl/english-words/blob/master/words_alpha.txt
 
+List of words in PTBR
+https://www.ime.usp.br/~pf/dicios/index.html
+
 Then generated 5-letter words with
 
 `grep -E '^[[:alpha:]]{5}$' words_alpha.txt > words_len5.txt`
 
-Two words that contain the 10 most common letters are:
+Two words that contain the 10 most common letters (ENG) are:
 UTILE and SONAR
