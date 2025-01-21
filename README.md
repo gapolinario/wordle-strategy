@@ -14,3 +14,8 @@ Then generated 5-letter words with
 
 Two words that contain the 10 most common letters (ENG) are:
 UTILE and SONAR
+
+A REGEX for WORDLE is:
+```^pr(?=[a-z]*i)(?![a-z]*[outyase])[a-z]{3}$```
+
+(see https://stackoverflow.com/questions/70805802/regex-for-wordle)
