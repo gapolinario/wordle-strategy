@@ -27,3 +27,6 @@ A REGEX for WORDLE is:
 About `wordle-fig` folder:
 I still cannot get the background to work with the blank cells ([n])
 Lookup tikzlibrary(backgrounds)
+
+See past wordles on:
+https://wordlearchive.com/450

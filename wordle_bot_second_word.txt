@@ -1,3 +1,4 @@
+crane, toils, tibia, 00100, 449,        ^(?!.*[crne])(?=.*a)[a-z]{2}[b-z][a-z]{2}$
 crane, sloth, silly, 00000, 2024-01-18, ^[^crane]{5}$
 crane, betel, rower, 01001, 2024-01-19, ^(?!.*[can])(?=.*r)(?=.*e)[a-z][a-qs-z][a-z]{2}[a-df-z]$
 crane, sloth, squid, 00000, 2024-01-20, ^[^crane]{5}$

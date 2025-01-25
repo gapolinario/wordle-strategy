@@ -1,9 +1,9 @@
 import subprocess
 
 first = ['crane']
-target = ['silly', 'rower','squid', 'icing', 'reach', 'upper', 'crepe', 'crisp']
+target = ['silly', 'rower','squid', 'icing', 'reach', 'upper', 'crepe', 'crisp', 'tibia']
 
-second = ['sloth', 'betel', 'icing', 'react', 'creme', 'stoop']
+second = ['sloth', 'betel', 'icing', 'react', 'creme', 'stoop', 'toils']
 
 for f in first:
     for t in target:
