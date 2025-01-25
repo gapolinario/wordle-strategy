@@ -23,3 +23,7 @@ A REGEX for WORDLE is:
 ```^pr(?=[a-z]*i)(?![a-z]*[outyase])[a-z]{3}$```
 
 (see https://stackoverflow.com/questions/70805802/regex-for-wordle)
+
+About `wordle-fig` folder:
+I still cannot get the background to work with the blank cells ([n])
+Lookup tikzlibrary(backgrounds)

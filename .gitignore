@@ -1,0 +1,7 @@
+# LATEX
+*.aux
+*.log
+
+# TEMPS
+word.tex
+wordle-fig-*.pdf

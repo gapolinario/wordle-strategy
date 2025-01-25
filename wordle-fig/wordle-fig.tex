@@ -1,0 +1,28 @@
+% source: https://tex.stackexchange.com/questions/659860/wordle-like-colored-letter-boxes-in-latex
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\tikzset{wordlematrix/.style={matrix of nodes, nodes={anchor=center, fill=bad, minimum height=1cm, minimum width=1cm}, column sep=2pt, row sep=2pt, color=white, font=\sffamily\Large\bfseries},
+    g/.style={fill=great}, h/.style={fill=good},  n/.style={fill=none, color=black, draw=dark-border, thick,minimum size=1cm-\pgflinewidth}, e/.style={fill=none, color=black, draw=light-border, thick,minimum size=1cm-\pgflinewidth}}
+
+\definecolor{great}{rgb}{0.416, 0.667, 0.392}
+\definecolor{good}{rgb}{0.788, 0.706, 0.345}
+\definecolor{bad}{rgb}{0.471, 0.486, 0.494}
+\definecolor{light-border}{rgb}{0.827, 0.839, 0.855}
+\definecolor{dark-border}{rgb}{0.529, 0.541, 0.549}
+\definecolor{none}{rgb}{1,1,1}
+
+
+\begin{document}
+
+%\pagecolor{black}
+
+\begin{tikzpicture}[baseline=-1.5mm]
+    %\matrix(titlewordle)[wordlematrix, ampersand replacement=\&]{ 
+    \input{word.tex}
+    %\\
+    %};
+    \end{tikzpicture}
+    
+\end{document}
