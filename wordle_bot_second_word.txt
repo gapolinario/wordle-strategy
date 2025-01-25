@@ -1,0 +1,9 @@
+crane, sloth, silly, 00000, 2024-01-18, ^[^crane]{5}$
+crane, betel, rower, 01001, 2024-01-19, ^(?!.*[can])(?=.*r)(?=.*e)[a-z][a-qs-z][a-z]{2}[a-df-z]$
+crane, sloth, squid, 00000, 2024-01-20, ^[^crane]{5}$
+crane, icing, icing, 10020, 2024-01-21, ^(?=.*c)(?!.*[rae])[a-bd-z][a-z]{2}n[a-z]$
+crane, react, reach, 11201, 2024-01-22, ^(?![n])(?=.*c)(?=.*r)(?=.*e)[a-bd-z][a-qs-z]a[a-z][a-df-z]$
+crane, betel, upper, 01001, 2024-01-23, ^(?!.*[can])(?=.*r)(?=.*e)[a-z][a-qs-z][a-z]{2}[a-df-z]$
+crane, creme, crepe, 22002, 2024-01-24, ^(?!.*[an])cr[a-z]{2}e$
+crane, stoop, crisp, 22000, 2024-01-25, ^(?!.*[ane])cr[a-z]{3}$
+
