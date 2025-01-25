@@ -19,3 +19,7 @@ UTILE and SONAR
 To test your second word regex, go to:
 https://regex101.com/r/gvkf5V/1
 
+A REGEX for WORDLE is:
+```^pr(?=[a-z]*i)(?![a-z]*[outyase])[a-z]{3}$```
+
+(see https://stackoverflow.com/questions/70805802/regex-for-wordle)
